@@ -19,3 +19,7 @@ SQL
 # 9 tehtävä   
 
 # SELECT * FROM opiskelija WHERE "tiede" 
+
+# 10 tehtävä   
+
+# SELECT * FROM opiskelija, Kurssisuoritus WHERE Opiskelija.opiskelijanumero = 999999 	

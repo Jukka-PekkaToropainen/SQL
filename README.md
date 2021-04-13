@@ -5,4 +5,5 @@ SQL
 # 3 tehtävä 
 # 4 tehtävä SELECT * FROM Kurssisuoritus
 # 5 tehtävä  SELECT Kurssi FROM opiskelija 
-6  # SELECT * FROM opiskelija " WHERE"  
+ # 6 tehtävä         
+ # SELECT * FROM opiskelija " WHERE"  

@@ -14,3 +14,8 @@ SQL
 # 8 tehtävä     
 
 # SELECT * FROM opiskelija  "WHERE"WHERE nimi
+
+
+# 9 tehtävä   
+
+# SELECT * FROM opiskelija WHERE "tiede" 

@@ -30,3 +30,9 @@ SQL
 
 
  # SELECT * FROM Opiskelija, Kurssisuoritus WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
+
+# Tehtävä 11
+
+# SELECT Opiskelija.nimi AS opiskelija,Kurssi.nimi AS kurssi
+# FROM Opiskelija,Kurssisuoritus,Kurssi 
+# WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija

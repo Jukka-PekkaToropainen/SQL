@@ -53,5 +53,5 @@ SQL
 
 # 14. 
  Tehtävä: pohdintaa taulujen yhdistämisestä
- toisessa tehdään taulukko opiskelija numeron mukaan 
+ toisessa lisätty opiskelija numero
 

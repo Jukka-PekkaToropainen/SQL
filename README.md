@@ -61,3 +61,12 @@ SQL
 SELECT opiskelijanumero FROM Opiskelija o 
 WHERE o.opiskelijanumero
 NOT IN(SELECT opiskelija FROM Kurssisuoritus) 
+
+
+# 16
+
+# SELECT kurssisuoritus.kurssi AS Kurssikoodi COUNT(*) AS lukumäärä
+# FROM kurssisuoritus
+# GROUP BY Kurssikoodi
+
+

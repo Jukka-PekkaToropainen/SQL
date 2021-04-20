@@ -36,3 +36,18 @@ SQL
 # SELECT Opiskelija.nimi AS opiskelija,Kurssi.nimi AS kurssi
 # FROM Opiskelija,Kurssisuoritus,Kurssi 
 # WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
+
+
+
+
+# Tehtävä 13
+# SELECT Tehtävä.nimi AS Tehtävä
+   # FROM Kurssi, Kurssitehtävä, Tehtävä, Tehtäväsuoritus
+   # WHERE Kurssi.nimi = 'Tietokantojen perusteet'
+         AND Kurssi.kurssitunnus = Kurssitehtävä.kurssi
+        AND Tehtävä.tunnus = Kurssitehtävä.tehtävä
+        AND Tehtäväsuoritus.tehtävä = Kurssitehtävä.tunnus;
+        WHERE Opiskelija.tehtävät = anna
+
+
+

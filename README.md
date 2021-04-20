@@ -55,3 +55,9 @@ SQL
  Tehtävä: pohdintaa taulujen yhdistämisestä
  toisessa lisätty opiskelija numero
 
+
+# 15
+
+SELECT opiskelijanumero FROM Opiskelija o 
+WHERE o.opiskelijanumero
+NOT IN(SELECT opiskelija FROM Kurssisuoritus) 

@@ -6,7 +6,7 @@ SQL
 # 4 tehtävä SELECT * FROM Kurssisuoritus
 # 5 tehtävä  SELECT Kurssi FROM opiskelija 
  # 6 tehtävä         
- # SELECT * FROM opiskelija " WHERE"  
+#  SELECT * FROM Opiskelija WHERE nimi = 'joni'
  
  # 7  tehtävä       
  # SELECT * FROM opiskelija  "WHERE"WHERE nimi = 999997 

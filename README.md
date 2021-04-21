@@ -69,3 +69,10 @@ SELECT kurssi.nimi AS kurssi,COUNT(ks.kurssi) as lukumäärä
 FROM Kurssi,kurssisuoritus
 WHERE = Kurssi.kurssitunnus
 GROUP BY Kurssisuoritus.kurssi
+
+
+
+# 17
+SELECT kurssi.nimi AS kurssi,COUNT(kurssisuoritus.kurssi) as lukumäärä 
+FROM  Kurssi,kurssisuoritus
+WHERE  Kurssi.kurssitunnus

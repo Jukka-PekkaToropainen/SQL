@@ -64,3 +64,8 @@ FROM kurssisuoritus
 GROUP BY Kurssikoodi
 
 
+# 16 
+SELECT kurssi.nimi AS kurssi,COUNT(ks.kurssi) as lukumäärä 
+FROM Kurssi,kurssisuoritus
+WHERE = Kurssi.kurssitunnus
+GROUP BY Kurssisuoritus.kurssi

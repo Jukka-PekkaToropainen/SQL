@@ -59,8 +59,8 @@ NOT IN(SELECT opiskelija FROM Kurssisuoritus)
 
 # 16
 
-# SELECT kurssisuoritus.kurssi AS Kurssikoodi COUNT(*) AS lukumäärä
-# FROM kurssisuoritus
-# GROUP BY Kurssikoodi
+# SELECT kurssisuoritus.kurssi AS kurssikoodi, COUNT(*) AS lukumäärä
+FROM kurssisuoritus
+GROUP BY Kurssikoodi
 
 

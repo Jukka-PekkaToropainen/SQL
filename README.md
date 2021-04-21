@@ -76,3 +76,14 @@ GROUP BY Kurssisuoritus.kurssi
 SELECT kurssi.nimi AS kurssi,COUNT(kurssisuoritus.kurssi) as lukumäärä 
 FROM  Kurssi,kurssisuoritus
 WHERE  Kurssi.kurssitunnus
+
+
+
+
+
+# 18
+SELECT k.nimi AS kurssi, COUNT(ks.kurssi) as lukumäärä FROM Kurssi k LEFT JOIN Kurssisuoritus ks
+    ON k.kurssitunnus = ks.kurssi GROUP BY k.nimi
+
+
+

@@ -87,3 +87,6 @@ SELECT k.nimi AS kurssi, COUNT(ks.kurssi) as lukumäärä FROM Kurssi k LEFT JOI
 
 
 
+# 19
+CREATE TABLE Kurssi (Kurssi, kurssitunnus, nimi, kuvaus)
+

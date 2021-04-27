@@ -108,3 +108,15 @@ CREATE TABLE Opiskelija
 
 # 21 B
 PRAGMA TABLE_INFO(Opiskelija)
+
+
+# 22 
+CREATE TABLE Kurssi
+(
+    kurssitunnus integer,
+    nimi varchar(200),
+    kuvaus
+  )
+
+# 22 B
+PRAGMA TABLE_INFO(Kurssi)

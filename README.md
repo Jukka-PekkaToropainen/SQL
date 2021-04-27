@@ -94,6 +94,5 @@ CREATE TABLE Kurssi (Kurssi, kurssitunnus, nimi, kuvaus)
  INSERT INTO Kurssi (kurssitunnus,  kuvaus, Kurssi )
  VALUES ('12345', 'hei maailma', 'SQL-kielen perusteet')
  
- # SELECT Kurssi 
-  FROM 'Kurssi'
- 
+# SELECT * FROM Kurssi
+

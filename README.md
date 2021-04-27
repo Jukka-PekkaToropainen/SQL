@@ -124,3 +124,13 @@ PRAGMA TABLE_INFO(Kurssi)
 # 23 
 opiskelijanumero 
 muuttuu joka kerta kun lisää opiskelioita
+
+
+# 24
+CREATE TABLE Kurssi 
+(
+    kurssitunnus integer PRIMARY KEY,
+    nimi varchar(200),
+    kuvaus,
+    pääaine varchar(50)
+)

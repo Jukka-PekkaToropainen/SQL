@@ -96,3 +96,15 @@ CREATE TABLE Kurssi (Kurssi, kurssitunnus, nimi, kuvaus)
  
 # SELECT * FROM Kurssi
 
+
+# 21
+CREATE TABLE Opiskelija
+(
+    opiskelijanumero integer,
+    nimi varchar(200),
+    syntymävuosi date,
+    pääaine varchar(50)
+)
+
+# 21 B
+PRAGMA TABLE_INFO(Opiskelija)

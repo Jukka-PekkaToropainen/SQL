@@ -120,3 +120,7 @@ CREATE TABLE Kurssi
 
 # 22 B
 PRAGMA TABLE_INFO(Kurssi)
+
+# 23 
+opiskelijanumero 
+muuttuu joka kerta kun lisää opiskelioita

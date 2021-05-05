@@ -16,6 +16,7 @@ SELECT * FROM Opiskelija WHERE nimi = 'joni'
 # 8 tehtävä     
 
 # SELECT * FROM opiskelija  "WHERE"WHERE nimi
+#  SELECT * FROM Kurssisuoritus WHERE kurssi = 'pihla'
 
 
 # 9 tehtävä   

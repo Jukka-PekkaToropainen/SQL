@@ -42,12 +42,10 @@ SELECT * FROM Kurssisuoritus WHERE opiskelija = '999999'
 
 # Tehtävä 12
 
-SELECT Opiskelija.nimi AS kurssi, Kurssi.nimi AS tehtävä
-		    FROM Opiskelija, Kurssisuoritus, Kurssi
-		    WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
-		    AND Kurssisuoritus.kurssi = Kurssi.kurssitunnus
-
-# Tehtävä 13
+SELECT kurssi.nimi AS kurssi, tehtävä.nimi AS tehtävä FROM kurssi,tehtävä,kurssitehtävä
+		    WHERE tehtävä.tunnus = kurssitehtävä.tehtävä
+                   AND kurssi.kurssitunnus = kurssitehtävä.kurssi
+		
 # SELECT Tehtävä.nimi AS Tehtävä
    # FROM Kurssi, Kurssitehtävä, Tehtävä, Tehtäväsuoritus
    # WHERE Kurssi.nimi = 'Tietokantojen perusteet'

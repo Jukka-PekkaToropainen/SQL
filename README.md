@@ -10,7 +10,8 @@ SQL
 SELECT * FROM Opiskelija WHERE nimi = 'joni'
  
  # 7  tehtävä       
- # SELECT * FROM opiskelija  "WHERE"WHERE nimi = 999997 
+ # SELECT * FROM Opiskelija WHERE nimi = 'anna'
+ SELECT * FROM opiskelija  "WHERE"WHERE nimi = 999997 
 
 # 8 tehtävä     
 

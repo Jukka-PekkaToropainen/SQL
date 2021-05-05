@@ -16,13 +16,13 @@ SELECT * FROM Opiskelija WHERE nimi = 'joni'
 # 8 tehtävä     
 
 
-#  SELECT * FROM Kurssisuoritus WHERE kurssi = 'pihla'
+SELECT * FROM Kurssisuoritus WHERE opiskelija = '999999'
 
 
 # 9 tehtävä   
 
 # SELECT * FROM Opiskelija WHERE pääaine LIKE '%a%'
-SELECT * FROM opiskelija WHERE "tiede" 
+
 
 # 10 tehtävä   
 

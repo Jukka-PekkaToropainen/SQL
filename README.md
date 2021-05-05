@@ -21,7 +21,8 @@ SELECT * FROM Opiskelija WHERE nimi = 'joni'
 
 # 9 tehtävä   
 
-# SELECT * FROM opiskelija WHERE "tiede" 
+# SELECT * FROM Opiskelija WHERE pääaine LIKE '%a%'
+SELECT * FROM opiskelija WHERE "tiede" 
 
 # 10 tehtävä   
 

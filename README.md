@@ -6,7 +6,8 @@ SQL
 # 4 tehtävä SELECT * FROM Kurssisuoritus
 # 5 SELECT  kurssi FROM Kurssisuoritus 
  # 6 tehtävä         
-#  SELECT * FROM Opiskelija WHERE nimi = 'joni'
+#  SELECT DISTINCT kurssi FROM Kurssisuoritus
+SELECT * FROM Opiskelija WHERE nimi = 'joni'
  
  # 7  tehtävä       
  # SELECT * FROM opiskelija  "WHERE"WHERE nimi = 999997 

@@ -21,7 +21,7 @@ SELECT * FROM Kurssisuoritus WHERE opiskelija = '999999'
 
 # 9 tehtävä   
 
-# SELECT * FROM Opiskelija WHERE pääaine LIKE '%tt%' 
+# SELECT DISTINCT(Pääaine) FROM Opiskelija WHERE pääaine LIKE '%Tiede%' 
 
 
 # 10 tehtävä   

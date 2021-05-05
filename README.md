@@ -43,16 +43,18 @@ SELECT * FROM Kurssisuoritus WHERE opiskelija = '999999'
 # Tehtävä 12
 
 SELECT kurssi.nimi AS kurssi, tehtävä.nimi AS tehtävä FROM kurssi,tehtävä,kurssitehtävä
-		    WHERE tehtävä.tunnus = kurssitehtävä.tehtävä
+		    WHERE tehtävä.tunnus = tehtävä.tehtävä
                    AND kurssi.kurssitunnus = kurssitehtävä.kurssi
 		
-# SELECT Tehtävä.nimi AS Tehtävä
-   # FROM Kurssi, Kurssitehtävä, Tehtävä, Tehtäväsuoritus
-   # WHERE Kurssi.nimi = 'Tietokantojen perusteet'
-         AND Kurssi.kurssitunnus = Kurssitehtävä.kurssi
-        AND Tehtävä.tunnus = Kurssitehtävä.tehtävä
-        AND Tehtäväsuoritus.tehtävä = Kurssitehtävä.tunnus;
-        WHERE Opiskelija.tehtävät = anna
+# Tehtävä 13
+
+SELECT kurssi.nimi AS Kurssi. Tehtävä AS Tehtävä
+FROM Kurssi,Kurssitehtävä, Tehtävä ,Tehtäväsuoritus ,opiskelija
+WHERE Kurssi .kurssitunnus = kurssitehtävä.kurssi 
+AND Tehtävä.tunnus =Kurssitehtävä.tehtävä
+AND Tehtäväsuoritus.tehtävä = Kurssitehtävä.tunnus 
+AND Opiskelija.opiskelijanumero = Tehtäväsuoritus.opiskelija
+AND Opiskelija.nimi = 'Anna'
 
 
 

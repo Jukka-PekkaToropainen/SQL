@@ -21,7 +21,7 @@ SELECT * FROM Kurssisuoritus WHERE opiskelija = '999999'
 
 # 9 tehtävä   
 
-# SELECT * FROM Opiskelija WHERE pääaine LIKE '%t%' 
+# SELECT * FROM Opiskelija WHERE pääaine LIKE '%tt%' 
 
 
 # 10 tehtävä   

@@ -38,6 +38,19 @@ SELECT * FROM Kurssisuoritus WHERE opiskelija = '999999'
 # Tehtävä 11
 
 # SELECT * FROM Opiskelija, Kurssisuoritus WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
+
+
+# Tehtävä 12
+
+SELECT Opiskelija.nimi AS opiskelija, Kurssi.nimi AS tehtävä
+		    FROM Opiskelija, Kurssisuoritus, Kurssi
+		    WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
+		    AND Kurssisuoritus.kurssi = Kurssi.kurssitunnus
+
+
+
+
+
 # Tehtävä 13
 # SELECT Tehtävä.nimi AS Tehtävä
    # FROM Kurssi, Kurssitehtävä, Tehtävä, Tehtäväsuoritus

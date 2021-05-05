@@ -2,7 +2,7 @@
 SQL
 # 1. tehtävä matti ja maija nimellä löytyi, omalla ei.
 # 2. tehtävä aika moneen varmastikkin....
-# 3 tehtävä ![...]
+# 3 tehtävä ![...]TEHTÄVÄ3png.png
 # 4 tehtävä SELECT * FROM Kurssisuoritus
 # 5 SELECT  kurssi FROM Kurssisuoritus 
  # 6 tehtävä         

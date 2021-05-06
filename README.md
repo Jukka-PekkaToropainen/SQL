@@ -35,7 +35,11 @@ SELECT * FROM Kurssisuoritus WHERE opiskelija = '999999'
 
 # Tehtävä 11
 
-# SELECT * FROM Opiskelija, Kurssisuoritus WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
+# SELECT Opiskelija.nimi,Kurssi,päivämäärä,arvosana
+# FROM Opiskelija, Kurssisuoritus, Kurssi
+# WHERE Opiskelija.opiskelijanumero = Kurssisuoritus.opiskelija
+# AND Kurssisuoritus.kurssi = Kurssi.kurssitunnus
+
 
 
 # Tehtävä 12

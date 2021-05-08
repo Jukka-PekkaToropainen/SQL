@@ -71,6 +71,9 @@ AND Opiskelija.nimi = 'Anna'
 # SELECT o.nimi opiskelija, k.arvosana
     FROM Opiskelija o, Kurssisuoritus k
     WHERE o.opiskelijanumero = k.opiskelija
+NOT IN (SELECT opiskelija FROM Kurssisuoritus)
+
+
 
 # 16
 

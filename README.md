@@ -157,3 +157,11 @@ CREATE TABLE Tehtävä (
 
 INSERT INTO Kurssi (nimi) VALUES ('Ohpe');
 INSERT INTO Kurssi (nimi) VALUES ('Tikape');
+
+
+
+
+
+
+# 26 ALTER TABLE Tehtävä ADD COLUMN Tehtävä varchar(50);
+

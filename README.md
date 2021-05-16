@@ -149,11 +149,11 @@ CREATE TABLE Kurssi
 
 # 25 PRAGMA foreign_keys = ON;
 
-# CREATE TABLE Kurssitehtävä (
+CREATE TABLE Tehtävä (
     kurssitunnus integer PRIMARY KEY,
     nimi varchar(200) NOT NULL,
     kuvaus varchar(3000)
 );
 
-# INSERT INTO Kurssi (nimi) VALUES ('Ohpe');
-# INSERT INTO Kurssi (nimi) VALUES ('Tikape');
+INSERT INTO Kurssi (nimi) VALUES ('Ohpe');
+INSERT INTO Kurssi (nimi) VALUES ('Tikape');

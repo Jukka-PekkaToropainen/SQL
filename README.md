@@ -167,3 +167,9 @@ INSERT INTO Kurssi (nimi) VALUES ('Tikape');
 
 # 27 komennolla voi lisätä,poistaa,tai modata taulukkoa.
   voi luoda rajoitteita taulukkoon
+  
+  
+  Esimerkki: ALTER TABLE table_name
+ADD column_name datatype; 
+ALTER TABLE Customers
+ADD Email varchar(255);

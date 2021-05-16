@@ -166,3 +166,4 @@ INSERT INTO Kurssi (nimi) VALUES ('Tikape');
 # 26 ALTER TABLE Tehtävä ADD COLUMN Tehtävä varchar(50);
 
 # 27 komennolla voi lisätä,poistaa,tai modata taulukkoa.
+  voi luoda rajoitteita taulukkoon

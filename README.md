@@ -125,7 +125,7 @@ CREATE TABLE Kurssi
 (
     kurssitunnus integer,
     nimi varchar(200),
-    kuvaus
+    kuvaus varchar(200)
   )
 
 # 22 B

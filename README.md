@@ -101,7 +101,7 @@ SELECT k.nimi AS kurssi, COUNT(ks.kurssi) as lukumäärä FROM Kurssi k LEFT JOI
 CREATE TABLE Kurssi (kurssitunnus, nimi, kuvaus)
 
 # 20
- INSERT INTO Kurssi (kurssitunnus,  kuvaus, Kurssi )
+ INSERT INTO Kurssi (kurssitunnus,  kuvaus, Nimi )
  VALUES ('12345', 'hei maailma', 'SQL-kielen perusteet')
  
 # SELECT * FROM Kurssi

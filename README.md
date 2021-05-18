@@ -68,10 +68,8 @@ AND Opiskelija.nimi = 'Anna'
 
 # 15
 
-# SELECT o.nimi opiskelija, k.arvosana
-    FROM Opiskelija o, Kurssisuoritus k
-    WHERE o.opiskelijanumero = k.opiskelija
-NOT IN (SELECT opiskelija FROM Kurssisuoritus)
+ # SELECT * FROM Kurssi
+ # WHERE Kurssi.Kurssitunnus NOT IN (SELECT kurssi FROM Kurssitehtävä)
 
 
 

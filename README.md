@@ -85,10 +85,10 @@ GROUP BY Kurssikoodi
 
 # 17
 
-SELECT k.nimi AS kurssi, ks.arvosana AS arvosana, COUNT (ks.opiskelija) AS lukumäärä
-    FROM Kurssi k, Kurssisuoritus ks WHERE k.kurssitunnus = ks.kurssi
-        GROUP BY k.nimi, ks.arvosana
-
+#  SELECT kurssi.nimi AS kurssi, COUNT (*) AS lukumäärä 
+FROM Kurssi, Kurssisuoritus  
+WHERE kurssi.kurssitunnus = kurssisuoritus.kurssi 
+GROUP BY kurssi.nimi
 
 
 # 18
